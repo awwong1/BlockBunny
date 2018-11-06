@@ -58,6 +58,6 @@ task run(type: Exec) {
     }
 
     def adb = path + "/platform-tools/adb"
-    commandLine "$adb", 'shell', 'am', 'start', '-n', 'fr.sous.les.apps.pong.android/fr.sous.les.apps.pong.android.AndroidLauncher'
+    commandLine "$adb", 'shell', 'am', 'start', '-n', 'com.spiritatlas.blockbunny.android/com.spiritatlas.blockbunny.android.AndroidLauncher'
 }
 
